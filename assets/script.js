@@ -1,4 +1,4 @@
-// alert("Salut JS");
+// alert("Salut Koumo");
 
 /* Commenter
 plusieurs
@@ -83,7 +83,7 @@ total *= 2;
 
 console.log();
 
-// ** Opérateurs d'affectations **
+// ** Structtures de controle **
 
 // une boite qui s'appelle x et que je donne comme valeurs 2
 let x = 2;
@@ -146,9 +146,9 @@ if (x < y && x > 10) {
 // Une function c'est un algorthime a faire quelque chose exemple ci-dessous ( on automatise des choses a executer)
 // une algorthyme c'est comme une recette de cuisine suivre des etapes 1 , 2 , 3 etc
 function faireQuelquesChose() {
-  console.log("je fais un truc");
-  console.log(5 + 6);
-  console.log("calcule terminé");
+  console.log();
+  console.log();
+  console.log();
   return; // un reurn permet d'arreter une function  ou retounrer une valeurs
 }
 
@@ -159,7 +159,7 @@ faireQuelquesChose();
 // j'introduis dans mon variable une function
 // les parametres sont la porte d'entrée on lui rentre des données et de les tuiliser a l'intérieur de la fonction
 const addition = (a, b) => {
-  console.log(a + b);
+  console.log();
 };
 
 // entre chaque paramtre mettre une virgule
@@ -170,7 +170,7 @@ addition(4, 3);
 // dans ce cas je peux appeler la variable car ma variable et en dehors de ma function je n'aurait pas pu si elle etait a l'interieur
 let num = 4;
 function add2() {
-  console.log(num + 2);
+  console.log();
 }
-console.log(num);
+console.log();
 add2();
